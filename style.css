@@ -1,1 +1,51 @@
 
+
+body{
+    background-color: rgb(42, 151, 165);
+    margin-right: 6.25%;
+    margin-left: 6.25%;
+}
+
+body div {
+    flex: 1 1 auto;
+    font-size: 100%; 
+    align-items: center;
+    justify-content: center;
+
+    /* creates ALL The BOARDERS */
+    /* padding: 1%;
+    border-style: solid; */
+}
+
+.navBar{
+    gap: 10%;
+
+}
+.navBar, .left, .right{
+    display: flex ;
+}
+.navBar div{
+    display: flex;
+    justify-content: left;
+}
+.title{
+    font-size: xx-large;
+}
+.date{
+    font-size:100%;
+    padding-bottom: 0% !important;
+    margin-bottom: 0% !important;
+
+}
+.section{
+    margin-bottom: 10%;
+}
+.details{
+    font-size:x-small;
+}
+.sideBySide{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: left;
+
+}
